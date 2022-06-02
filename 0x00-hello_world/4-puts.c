@@ -1,6 +1,8 @@
 #include<stdio.h>
 /**
- * using the puts function to print
+ * main - entry point
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
