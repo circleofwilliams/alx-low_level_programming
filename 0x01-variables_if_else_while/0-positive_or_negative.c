@@ -2,11 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
- *main - prints a random number and states if
- * it is postive, negative or zero
- *
- *Return: Awlays 0 
+/**
+ *main - prints randoms numbers and assign sign.
+ *Return: Always 0.
  */
 
 int main(void)
