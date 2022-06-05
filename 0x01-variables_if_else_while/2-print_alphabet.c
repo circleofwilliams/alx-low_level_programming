@@ -5,7 +5,7 @@
  *
  * Return: Alwasy 0
  */
-int main()
+int main(void)
 {
 	char alp[27] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
@@ -13,7 +13,7 @@ int main()
 	for (i = 0; i < 26; i++)
 	{
 		putchar(alp[i]);
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
