@@ -24,7 +24,7 @@ int main(void)
 				if (i == 57 && e == 56)
 				{
 					break;
-				}		
+				}
 				putchar(',');
 				putchar(' ');
 			}
