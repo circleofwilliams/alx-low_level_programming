@@ -1,8 +1,9 @@
 #include<stdio.h>
 
-/*
- *main - prints numbers between 0-9
- *Return: alwasy 0
+/**
+ * main - prints numbers between 0-9
+ *
+ * Return: alwasy 0
  */
 int main(void)
 {
