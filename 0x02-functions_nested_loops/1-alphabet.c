@@ -13,15 +13,3 @@ void print_alphabet(void)
 		_putchar(10);
 	}
 }
-
-/**
- * main - checks the code.
- *
- * Return: Always 0
- */
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
