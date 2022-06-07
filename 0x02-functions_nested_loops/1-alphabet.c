@@ -14,7 +14,7 @@ void print_alphabet(void)
 	for (j = 0; j < 27; j++)
 	{
 		_putchar(alp[i]);
-		i++
+		i++;
 	}
 	_putchar(10);
 }
