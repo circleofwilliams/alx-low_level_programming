@@ -5,7 +5,7 @@
  */
 void print_alphabet(void)
 {
-	int alp[], i;
+	int alp[27], i;
 
 	for (i = 97; i < 113; i++)
 	{
