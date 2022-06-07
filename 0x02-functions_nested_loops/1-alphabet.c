@@ -9,12 +9,12 @@ void print_alphabet(void)
 	int j;
 	int alp[27];
 
-	i = 97
+	i = 97;
 
-	for (j = 0; j < 27; i++, j++)
+	for (j = 0; j < 27; j++)
 	{
 		_putchar(alp[i]);
-
+		i++
 	}
 	_putchar(10);
 }
