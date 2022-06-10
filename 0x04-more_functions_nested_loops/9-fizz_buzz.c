@@ -28,7 +28,7 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
-	printf("%d ", 1);
+	printf("\n");
 
 	return (0);
 }
