@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
 *main - prints digits and fizzbuzz
@@ -29,4 +29,6 @@ int main(void)
 		}
 	}
 	printf("%d ", 1);
+
+	return (0);
 }
