@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 
 /**
 *_strncat - concatonate two strings using n numbers
@@ -10,7 +10,6 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-
 	int i = 0;
 	char *keep = dest;
 
@@ -24,6 +23,7 @@ char *_strncat(char *dest, char *src, int n)
 		*dest = *src;
 		dest++;
 		src++;
+		i++;
 	}
 
 	*dest = '\0';
