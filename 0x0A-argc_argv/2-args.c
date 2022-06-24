@@ -5,9 +5,10 @@
 *@argv: array of characters
 */
 
-int main(char **argv)
+int main(int argc, char **argv)
 {
 	int i;
+	(void) (argc);
 
 	for (i = 0; agrv[i]; i++)
 	{
