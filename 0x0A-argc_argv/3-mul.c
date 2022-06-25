@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
 *main - prints the mul of two numbers
@@ -16,7 +17,7 @@ int main(int argc, char **argv)
 	}
 	else
 	{
-		printf("%d \n", argv[1] * argv[2]);
+		printf("%d \n", atoi(argv[1]) * atoi(argv[2]));
 	}
 	return (0);
 }
