@@ -1,5 +1,10 @@
 #!/bin/bash
-gcc -Wall -pedantic -Werror -Wextra -c *.c
-ar -rc liball.a *.0
-ranlib liball.a
 
+echo 'creatin object files and archiving ...'
+gcc -Wall -pedantic -Werror -Wextra -c *.c
+
+sleep 2
+
+echo 'creating the archive'
+ar -rc liball.a *.o
+echo done
