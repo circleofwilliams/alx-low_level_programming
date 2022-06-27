@@ -21,6 +21,9 @@ char *create_array(size_t size, char c)
 
 		return (p);
 	}
+	else if (p == NULL)
+		return (NULL);
+
 	else
 		return (NULL);
 }
