@@ -9,10 +9,11 @@
 
 char *create_array(size_t size, char c)
 {
+	char *p:
+
 	if (size > 0)
 	{
 		size_t i;
-		char *p;
 
 		p = malloc(size * sizeof(char));
 
