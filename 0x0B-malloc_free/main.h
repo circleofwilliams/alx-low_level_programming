@@ -7,5 +7,6 @@
 char *create_array(size_t size, char c);
 size_t _strlen(char *str);
 char *_strdup(char *str);
+char *str_concat(char *s1, char *s2);
 
 #endif
