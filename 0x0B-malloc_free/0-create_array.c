@@ -24,6 +24,6 @@ char *create_array(size_t size, char c)
 		return (p);
 		}
 	}
-	else
+	else if (size <= 0)
 		return (NULL);
 }
