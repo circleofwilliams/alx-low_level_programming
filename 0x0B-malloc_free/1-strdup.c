@@ -3,10 +3,10 @@
 /**
 *_strlen - finds length of string
 *@str: the string
-*@Return: the length of the string
+*Return: the length of the string
 */
 
-int _strlen(char *str)
+size_t _strlen(char *str)
 {
 	if (*str == '\0')
 		return (0);
@@ -22,7 +22,7 @@ int _strlen(char *str)
 char *_strdup(char *str)
 {
 	char *p;
-	int n, i;
+	size_t n, i;
 
 	if (str == NULL)
 		return (NULL);
