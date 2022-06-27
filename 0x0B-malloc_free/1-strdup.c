@@ -9,12 +9,12 @@
 char *_strdup(char *str)
 {
 	char *p;
-	int n;
+	int n, l;
 
 	if (str == NULL)
 		return (NULL);
 
-	int l = 0;
+	l = 0;
 
 	while (*str != '\0')
 	{
@@ -31,9 +31,9 @@ char *_strdup(char *str)
 
 	while (*str != '\0')
 	{
-		*p = *s
+		*p = *str;
 		p++;
-		s++;
+		str++;
 	}
 
 	return (p);
