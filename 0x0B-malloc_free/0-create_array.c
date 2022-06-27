@@ -9,22 +9,21 @@
 
 char *create_array(size_t size, char c)
 {
+	char *p;
+	size_t i;
+
 	if (size > 0)
 	{
-		size_t i;
-		char *p;
-
 		p = malloc(size * sizeof(char));
 		if (p == NULL)
 			return (NULL);
+		else
+		{
 		for (i = 0; i < size; i++)
 			p[i] = c;
 		return (p);
+		}
 	}
-
-	else if (p == NULL)
-		return (NULL);
-
 	else
 		return (NULL);
 }
