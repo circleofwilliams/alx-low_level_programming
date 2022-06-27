@@ -5,5 +5,6 @@
 #include <stdlib.h>
 
 char *create_array(size_t size, char c);
+char *_strdup(char *str);
 
 #endif
