@@ -9,18 +9,19 @@
 
 void *_calloc(size_t nmemb, size_t size)
 {
-	void *ptr;
+	int i;
+	char *p;
 
-	if (nmemb == 0)
+	if (nmemb == 0 || size == 0)
 		return (NULL);
 
-	ptr = malloc(nmemb * size);
-	if (ptr == NULL)
+	p = malloc(nmemb * size);
+	if (p == NULL)
 		return (NULL);
 
 	for (i = 0; i < nmemb; i++)
-		ptr[i] = 0;
+		p[i] = 0;
 
-	return (ptr);
+	return (p);
 }
 
