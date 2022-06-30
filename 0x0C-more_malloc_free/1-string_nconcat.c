@@ -1,0 +1,36 @@
+#include "main.h"
+
+/**
+*string_nconcat - concatonate 2 strings
+*@s1: lead string
+*@s2: string 2
+*@n: number of bytes
+*Return: the concatonated stirng
+*/
+
+char *string_nconcat(char *s1, char *s2, size_t n)
+{
+	int i, j;
+	char *ptr;
+
+	if (s1 == NULL)
+		*s1 = "";
+	if (s2 == NULL)
+		*s2 = "";
+	if (n > _strlen(s2))
+		n = _strlen(s2);
+
+	ptr = malloc(_strlen(s1) * sizeof(char) + n * sizeof(s2) + 1);
+	if (ptr == NULL)
+		return (NULL);
+
+	for (i = 0; s1[i] != '\0'; i++)
+		*p[i] = *s1[i];
+
+	for (j = 0; j < n; j++)
+		p[i + j] = s2[j];
+
+	p[i + j] = '\0';
+
+	return (p);
+}
