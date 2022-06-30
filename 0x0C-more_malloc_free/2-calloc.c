@@ -7,10 +7,10 @@
 *Return: pointer to memory
 */
 
-void *_calloc(size_t nmemb, size_t size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int i;
-	char *p;
+	unsigned int i;
+	void *p;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
