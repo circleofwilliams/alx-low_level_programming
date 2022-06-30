@@ -7,8 +7,8 @@
 */                                                        
                                             
 int _strlen(char *str)                                    
-{                                                         
-	if (*str = '\0')                                  
+{
+	if (*str == '\0')
 		return (0);                               
 	return (1 + _strlen(str + 1));                    
 }                              
@@ -27,9 +27,9 @@ char *string_nconcat(char *s1, char *s2, size_t n)
 	char *ptr;
 
 	if (s1 == NULL)
-		*s1 = "";
+		s1 = "";
 	if (s2 == NULL)
-		*s2 = "";
+		s2 = "";
 	if (n > _strlen(s2))
 		n = _strlen(s2);
 
