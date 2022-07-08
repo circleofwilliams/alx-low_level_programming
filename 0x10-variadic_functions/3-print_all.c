@@ -9,12 +9,13 @@ void print_all(const char * const format, ...)
 {
 	int i;
 	va_list arg;
+	char *str;
 
 	char sep[] = ", ";
 	va_start(arg, format);
 
 	if (format == NULL)
-		return (NULL);
+		exit(98);
 
 	i = 0;
 
