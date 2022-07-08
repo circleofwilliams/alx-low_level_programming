@@ -22,7 +22,7 @@ void print_strings(const char *s, const size_t n, ...)
 		printf("%s", str);
 		if (s == NULL)
 			continue;
-		else if (i < n - 1)
+		if (i < n - 1)
 			printf("%s", s);
 	}
 
