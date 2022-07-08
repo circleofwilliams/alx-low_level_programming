@@ -7,5 +7,6 @@
 
 int sum_them_all(const size_t n, ...);
 void print_numbers(const char*, const size_t, ...);
+void print_strings(const char*, const size_t, ...);
 
 #endif
