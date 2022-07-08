@@ -13,7 +13,7 @@ void print_numbers(const char *s, const size_t n, ...)
 	va_list arg;
 	va_start(arg, n);
 
-	for (i = 0, i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		printf("%d", va_arg(arg, int));
 		if (s == NULL)
